@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "one"
+echo "two"
+echo "three"
+
+output
++ echo one
+one
++ echo two
+two
++ echo three
+three
