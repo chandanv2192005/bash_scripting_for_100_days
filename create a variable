@@ -1,0 +1,5 @@
+twitter = "elon musk"
+echo $twitter
+
+output
+elon musk
