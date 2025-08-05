@@ -1,0 +1,6 @@
+#!/bin/bash -x
+echo "one"
+echo "two"
+echo "three"
+
+its going to print everything including the commands and its outputs
