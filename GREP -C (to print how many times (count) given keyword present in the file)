@@ -1,0 +1,5 @@
+grep -c engineers user.csv
+
+it prints out how many times the keyword engineers are there in the file user.csv
+
+
