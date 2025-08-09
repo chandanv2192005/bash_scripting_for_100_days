@@ -13,6 +13,6 @@ if [[ ! -f "$LOG" ]]; then
 fi
 
 # Extract all lines containing [ERROR]
-grep '\[ERROR\]' "$LOG" > "$OUT"
+grep '\[ERROR\]' "$LOG" > "$OUT""
 
 echo "Wrote $OUT"
