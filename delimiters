@@ -2,4 +2,4 @@ echo "a1 , a2 , a3" | cut -d ',' -f1
 
   output  a1
    here ',' is considered as a delimiter, here anything before the delimiter is printed out  
-  
+   
