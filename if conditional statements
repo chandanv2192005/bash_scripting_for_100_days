@@ -1,0 +1,9 @@
+echo "hey , do you like coffee (y/n)"
+
+read  coffee
+
+if [ "$coffee" = "y" ]; then
+    echo "Great! Coffee is awesome."
+else
+    echo "No worries, tea is good too!"
+fi
