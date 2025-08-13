@@ -1,0 +1,5 @@
+echo "\$HOME"
+
+output $HOME 
+
+it prints out home without its expansion, that is its location
