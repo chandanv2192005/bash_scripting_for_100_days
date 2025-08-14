@@ -1,0 +1,9 @@
+awk -v var="Amount:" '{print var, $3}' txt_data.csv
+
+
+ Output:
+ Amount: Amount
+ Amount: 100
+ Amount: 200
+ Amount: 150
+ Amount: 175
