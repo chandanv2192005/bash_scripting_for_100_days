@@ -1,0 +1,4 @@
+if[[$coffee == "y"]]; then
+   echo "you are awsome"
+else "leave right now"
+fi
