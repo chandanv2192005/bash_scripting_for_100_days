@@ -1,0 +1,7 @@
+x = 1
+
+while[[$x -le 100]]
+do
+ echo "hey i just did $x pushups"
+ ((x++))
+done
