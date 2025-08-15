@@ -1,0 +1,7 @@
+if[[$beast = $TARNISHED || $TARNISHED == "coffee"]]; then
+   echo "beast vanquished"
+elif [[$USER == "bernard"]]; then
+   echo "hey bernard always wins you vanquished beast"
+else
+   echo "you died"
+fi
