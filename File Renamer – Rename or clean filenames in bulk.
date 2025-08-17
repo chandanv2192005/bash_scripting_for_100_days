@@ -5,7 +5,7 @@ PREFIX="${2:-}"
 SUFFIX="${3:-}"
 shopt -s nullglob
 for f in "$DIR"/*; do
- base=$(basename "$f")
+ base=$(basename "$f") 
  new="${base// /_}" 
  if [[ "$new" == *.* ]]; then
  name="${new%.*}"
