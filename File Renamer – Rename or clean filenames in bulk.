@@ -8,7 +8,7 @@ for f in "$DIR"/*; do
  base=$(basename "$f") 
  new="${base// /_}" 
  if [[ "$new" == *.* ]]; then
- name="${new%.*}"
+ name="${new%.*}" 
  ext=".${new##*.}"
  else
  name="$new"
