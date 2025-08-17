@@ -6,7 +6,7 @@ SUFFIX="${3:-}"
 shopt -s nullglob
 for f in "$DIR"/*; do
  base=$(basename "$f")
- new="${base// /_}"
+ new="${base// /_}" 
  if [[ "$new" == *.* ]]; then
  name="${new%.*}"
  ext=".${new##*.}"
