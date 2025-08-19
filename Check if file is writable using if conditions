@@ -1,0 +1,3 @@
+if [ -w "$filename" ]; then
+echo "File is writable"
+fi
