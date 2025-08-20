@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "=== System Information ==="
+echo "Date: $(date)"
+echo "Hostname: $(hostname)"
+echo "Current User: $USER"
+echo "Operating System: $(uname -s)"
+echo "Kernel Version: $(uname -r)"
+echo "Architecture: $(uname -m)"
+echo "Uptime: $(uptime)"
+echo "Disk Usage:"
+df -h | head -5
+echo "Memory Usage:"
+free -h
