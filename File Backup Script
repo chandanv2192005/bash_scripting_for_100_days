@@ -1,0 +1,18 @@
+source_dir="$HOME/Documents"
+backup_dir="$HOME/Backups"
+timestamp=$(date +"%Y%m%d_%H%M%S")
+backup_name="backup_$timestamp"
+
+if [ ! -d "$backup_dir" ]; then
+mkdir -p "$backup_dir"
+echo "Created backup directory: $backup_dir"
+fi
+
+echo "Starting backup of $source_dir..."
+cp -r "$source_dir" "$backup_dir/$backup_name"
+if [ $? -eq 0 ]; then
+echo "Backup completed successfully: $backup_dir/$backup_name"
+else
+echo "Backup failed!"
+exit 1
+fi
