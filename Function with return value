@@ -1,0 +1,9 @@
+add_numbers() {
+local num1=$1
+local num2=$2
+local result=$((num1 + num2))
+echo $result 
+}
+
+sum=$(add_numbers 10 20)
+echo "Sum: $sum"
