@@ -1,0 +1,7 @@
+greet_user() {
+local name=$1 
+local age=$2 
+echo "Hello $name, you are $age years old"
+}
+
+greet_user "Alice" 25
