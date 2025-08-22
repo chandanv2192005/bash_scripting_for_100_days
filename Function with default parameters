@@ -1,0 +1,5 @@
+#!/bin/bash
+create_user() {
+local username=${1:-"defaultuser"} 
+local shell=${2:-"/bin/bash"} 
+echo "Creating user: $username with shell: $shell"
