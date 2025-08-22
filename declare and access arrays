@@ -1,0 +1,5 @@
+# Declare and initialize array
+fruits=("apple" "banana" "orange" "grape")
+# Access array elements
+echo "First fruit: ${fruits[0]}"
+echo "Second fruit: ${fruits[1]}"
