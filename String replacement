@@ -1,0 +1,4 @@
+
+echo "Replace first 'o':
+${text/o/0}" echo "Replace all 'o': 
+${text//o/0}" 
