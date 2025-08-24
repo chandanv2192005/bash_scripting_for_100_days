@@ -17,7 +17,7 @@ echo "=================================="
 echo "files in folder "$DIR"  are "
 echo "=================================="
 
-# D:\github-repos\100-days-bash-script-challenge\test\*
+
 for f in "$DIR"/*.txt; do
    
    base_file=$(basename "$f")
