@@ -1,0 +1,4 @@
+#!/bin/bash
+# Case conversion
+name="John DOE"
+echo "Lowercase: ${name,,}" echo "Uppercase: ${name^^}" echo "First letter caps: ${name^}" 
