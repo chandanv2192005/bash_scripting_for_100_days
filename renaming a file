@@ -1,0 +1,45 @@
+#!/bin/bash
+# === File Renamer ===
+# Replaces spaces with underscores and optionally adds prefix/suffix.
+# Usage: ./rename.sh <dir> [prefix] [suffix]
+
+DIR="${1:-.}"
+PREFIX="${2:-}"
+SUFFIX="${3:-}"
+
+echo "$DIR"
+echo "$PREFIX"
+echo "$SUFFIX"
+
+echo "current director is "
+echo "=================================="
+pwd 
+echo "=================================="
+
+echo "files in folder "$DIR"  are "
+echo "=================================="
+
+# D:\github-repos\100-days-bash-script-challenge\test\*
+for f in "$DIR"/*.txt; do
+   
+   base_file=$(basename "$f")
+   #echo "$base_file"
+   new="${base_file// /-}"
+   #echo "$new"
+
+    if [[ "$new" == *.* ]]; then
+        name="${new%.*}"
+        ext=".${new##*.}"
+        echo "$name"
+        echo "$ext"
+    else
+        name="$new"
+        ext=""
+    fi
+    out="${PREFIX}-${name}-${SUFFIX}${ext}"
+    echo "$out"
+
+    if [[ "$base_file" != "$out" ]]; then
+        mv -v -- "$DIR/$base_file" "$DIR/$out"
+    fi
+done
