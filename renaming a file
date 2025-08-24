@@ -1,7 +1,5 @@
 #!/bin/bash
-# === File Renamer ===
-# Replaces spaces with underscores and optionally adds prefix/suffix.
-# Usage: ./rename.sh <dir> [prefix] [suffix]
+
 
 DIR="${1:-.}"
 PREFIX="${2:-}"
