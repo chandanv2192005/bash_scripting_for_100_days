@@ -2,4 +2,4 @@
 
 DIR="${1:-.}"
 N="${2:-5}"
-du -ah "$DIR" 2>/dev/null | sort -hr | head -n "$N"
+du -ah "$DIR" 2>/dev/null | sort -hr | head -n "$N" 
