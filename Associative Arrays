@@ -1,7 +1,7 @@
 #!/bin/bash
 # Declare associative array
 declare -A server_info
-# Assign values
+# Assign values 
 server_info["hostname"]="web-server-01"  
 server_info["ip"]="192.168.1.100"
 server_info["os"]="Ubuntu 20.04" 
