@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 # Declare associative array 
 declare -A server_info
 # Assign values  
