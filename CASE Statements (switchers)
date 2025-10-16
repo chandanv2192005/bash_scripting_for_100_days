@@ -5,7 +5,7 @@ echo "welcome tarnished please select your starting class
 
 read class
 case $class.in
-1)
+1) 
   type = "sumurai"
   hp = 10
   attack = 20
