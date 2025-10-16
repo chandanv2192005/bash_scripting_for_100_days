@@ -1,6 +1,6 @@
 echo "welcome tarnished please select your starting class
 1-samurai
-2-prisoner
+2-prisoner 
 3-proplet"
 
 read class
